@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `ps_memes`
 --
 
-CREATE TABLE IF NOT EXISTS `ps_memes` (
+CREATE TABLE IF NOT EXISTS `memes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(256) COLLATE utf8_unicode_ci NOT NULL,
   `img` varchar(256) COLLATE utf8_unicode_ci NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `ps_memes` (
 -- Table structure for table `ps_meme_instances`
 --
 
-CREATE TABLE IF NOT EXISTS `ps_meme_instances` (
+CREATE TABLE IF NOT EXISTS `meme_instances` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `meme_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,

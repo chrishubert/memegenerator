@@ -11,6 +11,8 @@ If it is too long, text will be splitted into two rows.
 
 Font size is automatically calculated for best fit in image and it gets centered.
 
+At this point meme generator isn't meant to store generated images on server, but rather to generate them in runtime from simple database info.
+
 ##Usage
 
 ###Usage with Laravel 4

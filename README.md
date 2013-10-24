@@ -1,7 +1,5 @@
-memegenerator
-=============
-
-#Meme generator class
+Meme generator class
+====================
 
 ##Description
 
